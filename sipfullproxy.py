@@ -69,8 +69,8 @@ recordroute = ""
 topvia = ""
 registrar = {}
 
-#logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s', filename='proxy.log', level=logging.INFO, datefmt='%H:%M:%S')
-#logging.info(time.strftime("%a, %d %b %Y %H:%M:%S ", time.localtime()))
+logging.basicConfig(format='%(asctime)s  %(message)s', filename='log.txt', level=logging.INFO, datefmt='%H:%M:%S')
+logging.info(time.strftime("%a, %d %b %Y %H:%M:%S ", time.localtime()))
 
 hostname = socket.gethostname()
 
@@ -300,8 +300,9 @@ class UDPHandler(socketserver.BaseRequestHandler):
             self.sendResponse("400 Bad Request")
             return
         destination = self.getDestination()
+        origin = self.getOrigin()
         if len(destination) > 0:
-            logging.info("destination %s" % destination)
+            logging.info("Call from %s destination %s " % (origin,destination))
             if destination in registrar and self.checkValidity(destination):
                 socket, claddr = self.getSocketInfo(destination)
                 # self.changeRequestUri()
