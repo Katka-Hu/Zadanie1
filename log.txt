@@ -1,0 +1,551 @@
+12:34:18  Sun, 27 Feb 2022 12:34:18 
+12:34:18  Katka-Dell
+12:34:18  192.168.1.117
+12:34:21  >>> REGISTER sip:192.168.1.117 SIP/2.0
+12:34:21  From: katkaPC@192.168.1.117 - Contact: 192.168.1.117:51897
+12:34:21  <<< SIP/2.0 200 0K
+12:36:17  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:36:17  From: katkaMOBIL@192.168.1.117 - Contact: 192.168.1.119:36348
+12:36:17  <<< SIP/2.0 200 0K
+12:36:17  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:36:17  <<< SIP/2.0 200 0K
+12:36:24  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:36:24  From: katkaMOBIL@192.168.1.117 - Contact: 192.168.1.119:36348
+12:36:24  <<< SIP/2.0 200 0K
+12:37:18  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:37:18  From: katkaMOBIL@192.168.1.117 - Contact: 192.168.1.119:36348
+12:37:18  <<< SIP/2.0 200 0K
+12:37:23  >>> REGISTER sip:192.168.1.117 SIP/2.0
+12:37:23  From: lenkaMOBIL@192.168.1.117 - Contact: 192.168.1.112:58563
+12:37:23  <<< SIP/2.0 200 0K
+12:38:12  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:38:12  From: katkaMOBIL@192.168.1.117 - Contact: 192.168.1.119:36348
+12:38:12  <<< SIP/2.0 200 0K
+12:39:06  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:39:06  From: katkaMOBIL@192.168.1.117 - Contact: 192.168.1.119:36348
+12:39:06  <<< SIP/2.0 200 0K
+12:40:19  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:40:19  Call from katkaPC@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:40:19  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:40:19  >>> SIP/2.0 100 Trying
+12:40:19  <<< SIP/2.0 100 Trying
+12:40:19  >>> SIP/2.0 180 Ringing
+12:40:19  <<< SIP/2.0 180 Ringing
+12:40:22  >>> CANCEL sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:40:22  destination lenkaMOBIL@192.168.1.117
+12:40:22  <<< CANCEL sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:40:22  >>> SIP/2.0 200 Ok
+12:40:22  <<< SIP/2.0 200 Ok
+12:40:22  >>> SIP/2.0 487 Request terminated
+12:40:22  <<< SIP/2.0 487 Request terminated
+12:40:22  >>> ACK sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:40:22  destination lenkaMOBIL@192.168.1.117
+12:40:22  <<< ACK sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:43:06  >>> REGISTER sip:192.168.1.117 SIP/2.0
+12:43:06  From: katkaMOBIL@192.168.1.117 - Contact: 192.168.1.119:51991
+12:43:06  <<< SIP/2.0 200 0K
+12:44:24  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:44:24  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:44:24  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:44:24  >>> SIP/2.0 100 Trying
+12:44:24  <<< SIP/2.0 100 Trying
+12:44:24  >>> SIP/2.0 180 Ringing
+12:44:24  <<< SIP/2.0 180 Ringing
+12:44:35  >>> SIP/2.0 603 Decline
+12:44:35  <<< SIP/2.0 603 Decline
+12:44:35  >>> ACK sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:44:35  destination lenkaMOBIL@192.168.1.117
+12:44:35  <<< ACK sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:46:36  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:46:36  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:46:36  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:46:36  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:46:36  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:46:36  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:46:37  >>> SIP/2.0 100 Trying
+12:46:37  <<< SIP/2.0 100 Trying
+12:46:37  >>> SIP/2.0 180 Ringing
+12:46:37  <<< SIP/2.0 180 Ringing
+12:46:37  >>> SIP/2.0 180 Ringing
+12:46:37  <<< SIP/2.0 180 Ringing
+12:46:44  >>> SIP/2.0 200 Ok
+12:46:44  <<< SIP/2.0 200 Ok
+12:46:45  >>> SIP/2.0 200 Ok
+12:46:45  <<< SIP/2.0 200 Ok
+12:46:45  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:46:45  destination lenkaMOBIL@192.168.1.117
+12:46:45  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:46:45  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:46:45  destination lenkaMOBIL@192.168.1.117
+12:46:45  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:46:50  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:46:50  destination katkaMOBIL@192.168.1.117
+12:46:50  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:46:50  >>> SIP/2.0 200 Ok
+12:46:50  <<< SIP/2.0 200 Ok
+12:47:35  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:47:35  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:47:35  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:47:36  >>> SIP/2.0 100 Trying
+12:47:36  <<< SIP/2.0 100 Trying
+12:47:36  >>> SIP/2.0 180 Ringing
+12:47:36  <<< SIP/2.0 180 Ringing
+12:47:41  >>> SIP/2.0 200 Ok
+12:47:41  <<< SIP/2.0 200 Ok
+12:47:42  >>> SIP/2.0 200 Ok
+12:47:42  <<< SIP/2.0 200 Ok
+12:47:42  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:47:42  destination lenkaMOBIL@192.168.1.117
+12:47:42  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:47:42  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:47:42  destination lenkaMOBIL@192.168.1.117
+12:47:42  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:47:47  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:47:47  destination katkaMOBIL@192.168.1.117
+12:47:47  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:47:47  >>> SIP/2.0 200 Ok
+12:47:47  <<< SIP/2.0 200 Ok
+12:50:47  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:50:47  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:50:47  <<< SIP/2.0 200 0K
+12:51:00  >>> INVITE sip:lenkaMOBIL@192.168.1.117;transport=UDP SIP/2.0
+12:51:00  Call from lgMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:51:00  <<< INVITE sip:lenkaMOBIL@192.168.1.117;transport=UDP SIP/2.0
+12:51:01  >>> SIP/2.0 100 Trying
+12:51:01  <<< SIP/2.0 100 Trying
+12:51:01  >>> SIP/2.0 180 Ringing
+12:51:01  <<< SIP/2.0 180 Ringing
+12:51:04  >>> SIP/2.0 603 Decline
+12:51:04  <<< SIP/2.0 603 Decline
+12:51:04  >>> ACK sip:lenkaMOBIL@192.168.1.117;transport=UDP SIP/2.0
+12:51:04  destination lenkaMOBIL@192.168.1.117
+12:51:04  <<< ACK sip:lenkaMOBIL@192.168.1.117;transport=UDP SIP/2.0
+12:51:41  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:51:41  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:51:41  <<< SIP/2.0 200 0K
+12:51:50  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:51:50  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:51:50  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:51:50  >>> SIP/2.0 100 Trying
+12:51:50  <<< SIP/2.0 100 Trying
+12:51:51  >>> SIP/2.0 180 Ringing
+12:51:51  <<< SIP/2.0 180 Ringing
+12:51:52  >>> SIP/2.0 200 Ok
+12:51:52  <<< SIP/2.0 200 Ok
+12:51:53  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:51:53  destination lenkaMOBIL@192.168.1.117
+12:51:53  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:51:53  >>> SIP/2.0 200 Ok
+12:51:53  <<< SIP/2.0 200 Ok
+12:51:53  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:51:53  destination lenkaMOBIL@192.168.1.117
+12:51:53  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:23  >>> INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:23  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:52:23  <<< INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:23  >>> INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:23  Call from katkaMOBIL@192.168.1.117 destination lgMOBIL@192.168.1.117 
+12:52:23  <<< INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:23  >>> SIP/2.0 100 Trying
+12:52:23  <<< SIP/2.0 100 Trying
+12:52:23  >>> SIP/2.0 200 Ok
+12:52:23  <<< SIP/2.0 200 Ok
+12:52:23  >>> SIP/2.0 200 Ok
+12:52:23  <<< SIP/2.0 200 Ok
+12:52:23  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:23  destination lenkaMOBIL@192.168.1.117
+12:52:23  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:23  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:23  destination lenkaMOBIL@192.168.1.117
+12:52:23  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:23  >>> INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:23  Call from katkaMOBIL@192.168.1.117 destination lgMOBIL@192.168.1.117 
+12:52:23  <<< INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:24  >>> INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:24  Call from katkaMOBIL@192.168.1.117 destination lgMOBIL@192.168.1.117 
+12:52:24  <<< INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:26  >>> INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:26  Call from katkaMOBIL@192.168.1.117 destination lgMOBIL@192.168.1.117 
+12:52:26  <<< INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:28  >>> SIP/2.0 100 Trying
+12:52:28  <<< SIP/2.0 100 Trying
+12:52:29  >>> SIP/2.0 180 Ringing
+12:52:29  <<< SIP/2.0 180 Ringing
+12:52:31  >>> SIP/2.0 486 Busy Here
+12:52:31  <<< SIP/2.0 486 Busy Here
+12:52:31  >>> ACK sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:31  destination lgMOBIL@192.168.1.117
+12:52:31  <<< ACK sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:52:35  >>> INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:35  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:52:35  <<< INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:35  >>> SIP/2.0 100 Trying
+12:52:35  <<< SIP/2.0 100 Trying
+12:52:35  >>> SIP/2.0 200 Ok
+12:52:35  <<< SIP/2.0 200 Ok
+12:52:35  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:52:35  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:52:35  <<< SIP/2.0 200 0K
+12:52:36  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:36  destination lenkaMOBIL@192.168.1.117
+12:52:36  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:37  >>> BYE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:37  destination lenkaMOBIL@192.168.1.117
+12:52:37  <<< BYE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:52:37  >>> SIP/2.0 200 Ok
+12:52:37  <<< SIP/2.0 200 Ok
+12:53:01  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:53:01  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:53:01  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:53:01  >>> SIP/2.0 100 Trying
+12:53:01  <<< SIP/2.0 100 Trying
+12:53:01  >>> SIP/2.0 180 Ringing
+12:53:01  <<< SIP/2.0 180 Ringing
+12:53:06  >>> SIP/2.0 200 Ok
+12:53:06  <<< SIP/2.0 200 Ok
+12:53:06  >>> SIP/2.0 200 Ok
+12:53:06  <<< SIP/2.0 200 Ok
+12:53:06  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:06  destination lenkaMOBIL@192.168.1.117
+12:53:06  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:06  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:06  destination lenkaMOBIL@192.168.1.117
+12:53:06  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:21  >>> INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:21  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:53:21  <<< INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:21  >>> INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:53:21  Call from katkaMOBIL@192.168.1.117 destination lgMOBIL@192.168.1.117 
+12:53:21  <<< INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:53:21  >>> SIP/2.0 100 Trying
+12:53:21  <<< SIP/2.0 100 Trying
+12:53:21  >>> SIP/2.0 200 Ok
+12:53:21  <<< SIP/2.0 200 Ok
+12:53:21  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:21  destination lenkaMOBIL@192.168.1.117
+12:53:21  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:21  >>> SIP/2.0 100 Trying
+12:53:21  <<< SIP/2.0 100 Trying
+12:53:22  >>> SIP/2.0 180 Ringing
+12:53:22  <<< SIP/2.0 180 Ringing
+12:53:24  >>> SIP/2.0 486 Busy Here
+12:53:24  <<< SIP/2.0 486 Busy Here
+12:53:24  >>> ACK sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:53:24  destination lgMOBIL@192.168.1.117
+12:53:24  <<< ACK sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:53:28  >>> INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:28  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:53:28  <<< INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:28  >>> SIP/2.0 100 Trying
+12:53:28  <<< SIP/2.0 100 Trying
+12:53:28  >>> SIP/2.0 200 Ok
+12:53:28  <<< SIP/2.0 200 Ok
+12:53:28  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:28  destination lenkaMOBIL@192.168.1.117
+12:53:28  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:30  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:53:30  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:53:30  <<< SIP/2.0 200 0K
+12:53:41  >>> BYE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:41  destination lenkaMOBIL@192.168.1.117
+12:53:41  <<< BYE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:53:41  >>> SIP/2.0 200 Ok
+12:53:41  <<< SIP/2.0 200 Ok
+12:54:24  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:54:24  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:54:24  <<< SIP/2.0 200 0K
+12:55:18  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:55:18  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:55:18  <<< SIP/2.0 200 0K
+12:55:46  >>> INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:55:46  Call from katkaPC@192.168.1.117 destination lgMOBIL@192.168.1.117 
+12:55:46  <<< INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:55:46  >>> SIP/2.0 100 Trying
+12:55:46  <<< SIP/2.0 100 Trying
+12:55:46  >>> SIP/2.0 180 Ringing
+12:55:46  <<< SIP/2.0 180 Ringing
+12:55:46  >>> INVITE sip:katkaMOBIL@192.168.1.117 SIP/2.0
+12:55:46  Call from katkaPC@192.168.1.117 destination katkaMOBIL@192.168.1.117 
+12:55:46  <<< INVITE sip:katkaMOBIL@192.168.1.117 SIP/2.0
+12:55:46  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:55:46  Call from katkaPC@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:55:46  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:55:47  >>> SIP/2.0 100 Trying
+12:55:47  <<< SIP/2.0 100 Trying
+12:55:47  >>> SIP/2.0 100 Trying
+12:55:47  <<< SIP/2.0 100 Trying
+12:55:47  >>> SIP/2.0 180 Ringing
+12:55:47  <<< SIP/2.0 180 Ringing
+12:55:47  >>> SIP/2.0 180 Ringing
+12:55:47  <<< SIP/2.0 180 Ringing
+12:55:51  >>> SIP/2.0 200 Ok
+12:55:51  <<< SIP/2.0 200 Ok
+12:55:51  >>> ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:55:51  destination katkaMOBIL@192.168.1.117
+12:55:51  <<< ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:55:52  >>> SIP/2.0 200 Ok
+12:55:52  <<< SIP/2.0 200 Ok
+12:55:52  >>> SUBSCRIBE sip:katkaPC@192.168.1.117;conf-id=UY6T4;transport=udp SIP/2.0
+12:55:52  <<< SIP/2.0 200 0K
+12:55:52  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:55:52  destination lenkaMOBIL@192.168.1.117
+12:55:52  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:55:52  >>> SUBSCRIBE sip:katkaPC@192.168.1.117;conf-id=UY6T4;transport=udp SIP/2.0
+12:55:52  <<< SIP/2.0 200 0K
+12:55:53  >>> SIP/2.0 200 OK
+12:55:53  <<< SIP/2.0 200 OK
+12:55:54  >>> ACK sip:lgMOBIL@192.168.1.103:44061 SIP/2.0
+12:55:54  destination lgMOBIL@192.168.1.117
+12:55:54  <<< ACK sip:lgMOBIL@192.168.1.103:44061 SIP/2.0
+12:56:12  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:56:12  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:56:12  <<< SIP/2.0 200 0K
+12:56:16  >>> BYE sip:katkaPC@192.168.1.117:51897;conf-id=UY6T4;transport=udp SIP/2.0
+12:56:16  destination katkaPC@192.168.1.117
+12:56:16  <<< BYE sip:katkaPC@192.168.1.117:51897;conf-id=UY6T4;transport=udp SIP/2.0
+12:56:16  >>> SIP/2.0 200 Ok
+12:56:16  <<< SIP/2.0 200 Ok
+12:56:16  >>> SUBSCRIBE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:56:16  <<< SIP/2.0 200 0K
+12:56:21  >>> BYE sip:katkaPC@192.168.1.117:51897;conf-id=UY6T4;transport=udp SIP/2.0
+12:56:21  destination katkaPC@192.168.1.117
+12:56:21  <<< BYE sip:katkaPC@192.168.1.117:51897;conf-id=UY6T4;transport=udp SIP/2.0
+12:56:21  >>> SIP/2.0 200 Ok
+12:56:21  <<< SIP/2.0 200 Ok
+12:56:21  >>> SUBSCRIBE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:56:21  <<< SIP/2.0 200 0K
+12:56:25  >>> BYE sip:katkaPC@192.168.1.117:51897;transport=udp;conf-id=UY6T4 SIP/2.0
+12:56:25  destination katkaPC@192.168.1.117
+12:56:25  <<< BYE sip:katkaPC@192.168.1.117:51897;transport=udp;conf-id=UY6T4 SIP/2.0
+12:56:25  >>> SIP/2.0 200 Ok
+12:56:25  <<< SIP/2.0 200 Ok
+12:57:06  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:57:06  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:57:06  <<< SIP/2.0 200 0K
+12:57:07  >>> INVITE sip:katkaPC@192.168.1.117 SIP/2.0
+12:57:07  Call from lenkaMOBIL@192.168.1.117 destination katkaPC@192.168.1.117 
+12:57:07  <<< INVITE sip:katkaPC@192.168.1.117 SIP/2.0
+12:57:07  >>> SIP/2.0 100 Trying
+12:57:07  <<< SIP/2.0 100 Trying
+12:57:07  >>> SIP/2.0 180 Ringing
+12:57:07  <<< SIP/2.0 180 Ringing
+12:57:15  >>> SIP/2.0 603 Decline
+12:57:15  <<< SIP/2.0 603 Decline
+12:57:15  >>> ACK sip:katkaPC@192.168.1.117 SIP/2.0
+12:57:15  destination katkaPC@192.168.1.117
+12:57:15  <<< ACK sip:katkaPC@192.168.1.117 SIP/2.0
+12:57:20  >>> INVITE sip:katkaMOBIL@192.168.1.117 SIP/2.0
+12:57:20  Call from lenkaMOBIL@192.168.1.117 destination katkaMOBIL@192.168.1.117 
+12:57:20  <<< INVITE sip:katkaMOBIL@192.168.1.117 SIP/2.0
+12:57:20  >>> SIP/2.0 100 Trying
+12:57:20  <<< SIP/2.0 100 Trying
+12:57:21  >>> INVITE sip:katkaMOBIL@192.168.1.117 SIP/2.0
+12:57:21  Call from lenkaMOBIL@192.168.1.117 destination katkaMOBIL@192.168.1.117 
+12:57:21  <<< INVITE sip:katkaMOBIL@192.168.1.117 SIP/2.0
+12:57:21  >>> SIP/2.0 180 Ringing
+12:57:21  <<< SIP/2.0 180 Ringing
+12:57:21  >>> SIP/2.0 180 Ringing
+12:57:21  <<< SIP/2.0 180 Ringing
+12:57:23  >>> SIP/2.0 200 Ok
+12:57:23  <<< SIP/2.0 200 Ok
+12:57:24  >>> ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:24  destination katkaMOBIL@192.168.1.117
+12:57:24  <<< ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:37  >>> INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:37  Call from lenkaMOBIL@192.168.1.117 destination katkaMOBIL@192.168.1.117 
+12:57:37  <<< INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:37  >>> INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:57:37  Call from lenkaMOBIL@192.168.1.117 destination lgMOBIL@192.168.1.117 
+12:57:37  <<< INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:57:37  >>> SIP/2.0 100 Trying
+12:57:37  <<< SIP/2.0 100 Trying
+12:57:37  >>> SIP/2.0 200 Ok
+12:57:37  <<< SIP/2.0 200 Ok
+12:57:37  >>> ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:37  destination katkaMOBIL@192.168.1.117
+12:57:37  <<< ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:37  >>> SIP/2.0 100 Trying
+12:57:37  <<< SIP/2.0 100 Trying
+12:57:37  >>> SIP/2.0 180 Ringing
+12:57:37  <<< SIP/2.0 180 Ringing
+12:57:40  >>> SIP/2.0 200 OK
+12:57:40  <<< SIP/2.0 200 OK
+12:57:41  >>> ACK sip:lgMOBIL@192.168.1.103:44061 SIP/2.0
+12:57:41  destination lgMOBIL@192.168.1.117
+12:57:41  <<< ACK sip:lgMOBIL@192.168.1.103:44061 SIP/2.0
+12:57:49  >>> BYE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:57:49  destination lenkaMOBIL@192.168.1.117
+12:57:49  <<< BYE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:57:49  >>> SIP/2.0 200 Ok
+12:57:49  <<< SIP/2.0 200 Ok
+12:57:56  >>> INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:56  Call from lenkaMOBIL@192.168.1.117 destination katkaMOBIL@192.168.1.117 
+12:57:56  <<< INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:56  >>> INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:56  Call from lenkaMOBIL@192.168.1.117 destination katkaMOBIL@192.168.1.117 
+12:57:56  <<< INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:57  >>> INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:57  Call from lenkaMOBIL@192.168.1.117 destination katkaMOBIL@192.168.1.117 
+12:57:57  <<< INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:59  >>> INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:59  Call from lenkaMOBIL@192.168.1.117 destination katkaMOBIL@192.168.1.117 
+12:57:59  <<< INVITE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:57:59  >>> SIP/2.0 100 Trying
+12:57:59  <<< SIP/2.0 100 Trying
+12:58:00  >>> SIP/2.0 200 Ok
+12:58:00  <<< SIP/2.0 200 Ok
+12:58:00  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:58:00  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:58:00  <<< SIP/2.0 200 0K
+12:58:00  >>> SIP/2.0 200 Ok
+12:58:00  <<< SIP/2.0 200 Ok
+12:58:00  >>> ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:58:00  destination katkaMOBIL@192.168.1.117
+12:58:00  <<< ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:58:00  >>> ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:58:00  destination katkaMOBIL@192.168.1.117
+12:58:00  <<< ACK sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:58:00  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:58:00  destination katkaMOBIL@192.168.1.117
+12:58:00  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:58:00  >>> SIP/2.0 200 Ok
+12:58:00  <<< SIP/2.0 200 Ok
+12:58:15  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:58:15  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:58:15  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+12:58:15  >>> SIP/2.0 100 Trying
+12:58:15  <<< SIP/2.0 100 Trying
+12:58:15  >>> SIP/2.0 180 Ringing
+12:58:15  <<< SIP/2.0 180 Ringing
+12:58:20  >>> SIP/2.0 200 Ok
+12:58:20  <<< SIP/2.0 200 Ok
+12:58:20  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:58:20  destination lenkaMOBIL@192.168.1.117
+12:58:20  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:58:31  >>> INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:58:31  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:58:31  <<< INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:58:31  >>> INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:58:31  Call from katkaMOBIL@192.168.1.117 destination lgMOBIL@192.168.1.117 
+12:58:31  <<< INVITE sip:lgMOBIL@192.168.1.117 SIP/2.0
+12:58:31  >>> SIP/2.0 100 Trying
+12:58:31  <<< SIP/2.0 100 Trying
+12:58:31  >>> SIP/2.0 200 Ok
+12:58:31  <<< SIP/2.0 200 Ok
+12:58:32  >>> SIP/2.0 100 Trying
+12:58:32  <<< SIP/2.0 100 Trying
+12:58:32  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:58:32  destination lenkaMOBIL@192.168.1.117
+12:58:32  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:58:32  >>> SIP/2.0 180 Ringing
+12:58:32  <<< SIP/2.0 180 Ringing
+12:58:44  >>> SIP/2.0 200 OK
+12:58:44  <<< SIP/2.0 200 OK
+12:58:44  >>> ACK sip:lgMOBIL@192.168.1.103:44061 SIP/2.0
+12:58:44  destination lgMOBIL@192.168.1.117
+12:58:44  <<< ACK sip:lgMOBIL@192.168.1.103:44061 SIP/2.0
+12:58:53  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:58:53  destination katkaMOBIL@192.168.1.117
+12:58:53  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+12:58:53  >>> SIP/2.0 200 Ok
+12:58:53  <<< SIP/2.0 200 Ok
+12:58:54  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:58:54  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:58:54  <<< SIP/2.0 200 0K
+12:59:05  >>> INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:59:05  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+12:59:05  <<< INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:59:05  >>> SIP/2.0 100 Trying
+12:59:05  <<< SIP/2.0 100 Trying
+12:59:05  >>> SIP/2.0 200 Ok
+12:59:05  <<< SIP/2.0 200 Ok
+12:59:05  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:59:05  destination lenkaMOBIL@192.168.1.117
+12:59:05  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:59:11  >>> BYE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:59:11  destination lenkaMOBIL@192.168.1.117
+12:59:11  <<< BYE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+12:59:11  >>> SIP/2.0 200 Ok
+12:59:11  <<< SIP/2.0 200 Ok
+12:59:48  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+12:59:48  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+12:59:48  <<< SIP/2.0 200 0K
+13:00:35  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+13:00:35  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+13:00:35  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+13:00:36  >>> SIP/2.0 100 Trying
+13:00:36  <<< SIP/2.0 100 Trying
+13:00:36  >>> SIP/2.0 180 Ringing
+13:00:36  <<< SIP/2.0 180 Ringing
+13:00:38  >>> SIP/2.0 200 Ok
+13:00:38  <<< SIP/2.0 200 Ok
+13:00:38  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+13:00:38  destination lenkaMOBIL@192.168.1.117
+13:00:38  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+13:00:41  >>> INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+13:00:41  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+13:00:41  <<< INVITE sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+13:00:41  >>> SIP/2.0 100 Trying
+13:00:41  <<< SIP/2.0 100 Trying
+13:00:42  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+13:00:42  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+13:00:42  <<< SIP/2.0 200 0K
+13:00:43  >>> SIP/2.0 200 Ok
+13:00:43  <<< SIP/2.0 200 Ok
+13:00:43  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+13:00:43  destination lenkaMOBIL@192.168.1.117
+13:00:43  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+13:01:01  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:01:01  destination katkaMOBIL@192.168.1.117
+13:01:01  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:01:02  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:01:02  destination katkaMOBIL@192.168.1.117
+13:01:02  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:01:03  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:01:03  destination katkaMOBIL@192.168.1.117
+13:01:03  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:01:05  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:01:05  destination katkaMOBIL@192.168.1.117
+13:01:05  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:01:06  >>> SIP/2.0 200 Ok
+13:01:06  <<< SIP/2.0 200 Ok
+13:01:06  >>> SIP/2.0 200 Ok
+13:01:06  <<< SIP/2.0 200 Ok
+13:01:06  >>> SIP/2.0 200 Ok
+13:01:06  <<< SIP/2.0 200 Ok
+13:01:06  >>> SIP/2.0 200 Ok
+13:01:06  <<< SIP/2.0 200 Ok
+13:01:36  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+13:01:36  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+13:01:36  <<< SIP/2.0 200 0K
+13:01:55  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+13:01:55  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+13:01:55  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+13:01:56  >>> INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+13:01:56  Call from katkaMOBIL@192.168.1.117 destination lenkaMOBIL@192.168.1.117 
+13:01:56  <<< INVITE sip:lenkaMOBIL@192.168.1.117 SIP/2.0
+13:01:56  >>> SIP/2.0 100 Trying
+13:01:56  <<< SIP/2.0 100 Trying
+13:01:56  >>> SIP/2.0 180 Ringing
+13:01:56  <<< SIP/2.0 180 Ringing
+13:01:56  >>> SIP/2.0 180 Ringing
+13:01:56  <<< SIP/2.0 180 Ringing
+13:02:00  >>> SIP/2.0 200 Ok
+13:02:00  <<< SIP/2.0 200 Ok
+13:02:00  >>> ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+13:02:00  destination lenkaMOBIL@192.168.1.117
+13:02:00  <<< ACK sip:lenkaMOBIL@192.168.1.112:58563;transport=udp SIP/2.0
+13:02:11  >>> BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:02:11  destination katkaMOBIL@192.168.1.117
+13:02:11  <<< BYE sip:katkaMOBIL@192.168.1.119:51991;transport=udp SIP/2.0
+13:02:11  >>> SIP/2.0 200 Ok
+13:02:11  <<< SIP/2.0 200 Ok
+13:02:30  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+13:02:30  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+13:02:30  <<< SIP/2.0 200 0K
+13:03:24  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+13:03:24  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+13:03:24  <<< SIP/2.0 200 0K
+13:04:18  >>> REGISTER sip:192.168.1.117;transport=UDP SIP/2.0
+13:04:18  From: lgMOBIL@192.168.1.117 - Contact: 192.168.1.103:44061
+13:04:18  <<< SIP/2.0 200 0K
